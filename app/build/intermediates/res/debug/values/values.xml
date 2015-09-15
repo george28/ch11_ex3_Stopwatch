@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/660162328/Desktop/Student%20Files/Chapter%209/ch11_ex3_Stopwatch/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_description">Select to view stopwatch.</string>
+    <string name="app_name">Stopwatch</string>
+    <string name="hours">hours</string>
+    <string name="mins">mins</string>
+    <string name="reset">Reset</string>
+    <string name="secs">secs</string>
+    <string name="separator_main">:</string>
+    <string name="separator_tenths">.</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="tenths">1/10</string>
+    <string name="title_activity_stopwatch">Stopwatch</string>
+    <string name="zero_value_1">0</string>
+    <string name="zero_value_2">00</string>
+    <!-- From: file:/C:/Users/660162328/Desktop/Student%20Files/Chapter%209/ch11_ex3_Stopwatch/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="android:Theme.Light"/>
+    <style name="Button" parent="@style/Digit">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="Digit" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">60sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="Separator" parent="@style/Digit">
+        <item name="android:textSize">40sp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+</resources>
